@@ -1,0 +1,14 @@
+function Result(number) {
+    if (number >= 51 && number < 65) {
+        console.log("D");
+    } else if (number >= 65 && number < 75) {
+        console.log("C");
+    } else if (number >= 75 && number < 85) {
+        console.log("B");
+    } else if (number >= 85 && number <= 100) {
+        console.log("A");
+    } else {
+        console.log("F");
+    }
+}
+console.log(Resul(random number))

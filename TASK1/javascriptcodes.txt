@@ -1,0 +1,8 @@
+function Result(number) {
+    if (number %2 == 0) {
+        console.log("Daxil olunan əddəd cüt ədəddir.");
+    } else {
+        console.log("Daxil olunan ədəd cüt ədəd deyil.");
+    }
+}
+console.log(Result(random number))

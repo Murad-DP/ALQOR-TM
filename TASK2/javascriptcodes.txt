@@ -1,0 +1,10 @@
+function Result(number) {
+    if (number > 100 && number %2 !== 0) {
+        console.log("Daxil olunan ədəd 100 dən böyük tək ədəddir.");
+    } else if (number < 100 && number %2 == 0) {
+        console.log("Daxil olunan ədəd 100 dən kiçik cüt ədəddir.");
+    } else {
+        console.log("Düzgün ədəd daxil edilməyib.");
+    }
+}
+console.log(Result(random number));
